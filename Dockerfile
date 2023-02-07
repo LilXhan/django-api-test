@@ -7,6 +7,6 @@ WORKDIR /app/
 
 COPY requirements.txt /app/requirements.txt
 
-RUN pip install -r --upgrade --no-cache-dir -r requirements.txt 
+RUN pip install --upgrade --no-cache-dir -r requirements.txt 
 
 COPY . /app/
